@@ -30,6 +30,7 @@
 		7EA918DE2301B9FE005A5E72 /* MembersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA918DC2301B9FE005A5E72 /* MembersViewController.xib */; };
 		7EA918E02301BA34005A5E72 /* MembersContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA918DF2301BA34005A5E72 /* MembersContracts.swift */; };
 		7EA918E22301BA66005A5E72 /* MembersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA918E12301BA66005A5E72 /* MembersPresenter.swift */; };
+		7EA918E62301C170005A5E72 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA918E52301C170005A5E72 /* AppConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		7EA918DC2301B9FE005A5E72 /* MembersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MembersViewController.xib; sourceTree = "<group>"; };
 		7EA918DF2301BA34005A5E72 /* MembersContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersContracts.swift; sourceTree = "<group>"; };
 		7EA918E12301BA66005A5E72 /* MembersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersPresenter.swift; sourceTree = "<group>"; };
+		7EA918E52301C170005A5E72 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				7EA918B422FC9F62005A5E72 /* Data */,
 				7EA918B322FC9F5B005A5E72 /* Domain */,
 				7EA918B222FC9F42005A5E72 /* Presentation */,
+				7EA918E52301C170005A5E72 /* AppConfig.swift */,
 				7EA9189222FC9F0F005A5E72 /* AppDelegate.swift */,
 				7EA9189422FC9F0F005A5E72 /* ViewController.swift */,
 				7EA9189622FC9F0F005A5E72 /* Main.storyboard */,
@@ -357,6 +360,7 @@
 				7EA918D722FDE1C2005A5E72 /* CompaniesPresenter.swift in Sources */,
 				7EA918DD2301B9FE005A5E72 /* MembersViewController.swift in Sources */,
 				7EA918CE22FCD682005A5E72 /* DataProvider.swift in Sources */,
+				7EA918E62301C170005A5E72 /* AppConfig.swift in Sources */,
 				7EA918D222FDB82C005A5E72 /* CompaniesViewController.swift in Sources */,
 				7EA918BE22FCC676005A5E72 /* UseCaseProvider.swift in Sources */,
 				7EA918E22301BA66005A5E72 /* MembersPresenter.swift in Sources */,

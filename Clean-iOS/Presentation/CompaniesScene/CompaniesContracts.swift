@@ -9,7 +9,10 @@
 import Foundation
 
 protocol CompaniesViewContract {
+    func displayCompanies(_ companies: [Company])
+    func showError(error: String)
 }
 
 protocol CompaniesPresenterContract {
+    func getAllCompanies()
 }

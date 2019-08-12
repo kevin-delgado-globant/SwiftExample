@@ -9,6 +9,7 @@
 import UIKit
 
 class CompaniesViewController: UIViewController {
+    var presenter: CompaniesPresenterContract?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,4 +28,14 @@ class CompaniesViewController: UIViewController {
     }
     */
 
+}
+
+extension CompaniesViewController: CompaniesViewContract {
+    func showError(error: String) {
+        // TODO: Display some error
+    }
+    
+    func displayCompanies(_ companies: [Company]) {
+        // TODO: Display the companies
+    }
 }
