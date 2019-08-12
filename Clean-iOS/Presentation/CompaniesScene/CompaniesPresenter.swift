@@ -19,7 +19,7 @@ class CompaniesPresenter: CompaniesPresenterContract {
     }
     
     func getAllCompanies() {
-        useCase.companies().observeOn(MainScheduler.instance).subscribe(
+        useCase.companies().subscribe(
             onNext: { result in
                 self.view.displayCompanies(result)
             },
