@@ -26,6 +26,10 @@
 		7EA918D322FDB82C005A5E72 /* CompaniesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA918D122FDB82C005A5E72 /* CompaniesViewController.xib */; };
 		7EA918D522FDE186005A5E72 /* CompaniesContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA918D422FDE186005A5E72 /* CompaniesContracts.swift */; };
 		7EA918D722FDE1C2005A5E72 /* CompaniesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA918D622FDE1C2005A5E72 /* CompaniesPresenter.swift */; };
+		7EA918DD2301B9FE005A5E72 /* MembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA918DB2301B9FE005A5E72 /* MembersViewController.swift */; };
+		7EA918DE2301B9FE005A5E72 /* MembersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA918DC2301B9FE005A5E72 /* MembersViewController.xib */; };
+		7EA918E02301BA34005A5E72 /* MembersContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA918DF2301BA34005A5E72 /* MembersContracts.swift */; };
+		7EA918E22301BA66005A5E72 /* MembersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA918E12301BA66005A5E72 /* MembersPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		7EA918D122FDB82C005A5E72 /* CompaniesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompaniesViewController.xib; sourceTree = "<group>"; };
 		7EA918D422FDE186005A5E72 /* CompaniesContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesContracts.swift; sourceTree = "<group>"; };
 		7EA918D622FDE1C2005A5E72 /* CompaniesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesPresenter.swift; sourceTree = "<group>"; };
+		7EA918DB2301B9FE005A5E72 /* MembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersViewController.swift; sourceTree = "<group>"; };
+		7EA918DC2301B9FE005A5E72 /* MembersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MembersViewController.xib; sourceTree = "<group>"; };
+		7EA918DF2301BA34005A5E72 /* MembersContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersContracts.swift; sourceTree = "<group>"; };
+		7EA918E12301BA66005A5E72 /* MembersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				7EA918CF22FDB783005A5E72 /* CompaniesScene */,
+				7EA918D92301B9D9005A5E72 /* MembersScene */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -213,6 +222,25 @@
 			children = (
 				7EA918D022FDB82C005A5E72 /* CompaniesViewController.swift */,
 				7EA918D122FDB82C005A5E72 /* CompaniesViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EA918D92301B9D9005A5E72 /* MembersScene */ = {
+			isa = PBXGroup;
+			children = (
+				7EA918DA2301B9EF005A5E72 /* View */,
+				7EA918DF2301BA34005A5E72 /* MembersContracts.swift */,
+				7EA918E12301BA66005A5E72 /* MembersPresenter.swift */,
+			);
+			path = MembersScene;
+			sourceTree = "<group>";
+		};
+		7EA918DA2301B9EF005A5E72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EA918DB2301B9FE005A5E72 /* MembersViewController.swift */,
+				7EA918DC2301B9FE005A5E72 /* MembersViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -301,6 +329,7 @@
 				7EA9189D22FC9F11005A5E72 /* LaunchScreen.storyboard in Resources */,
 				7EA9189A22FC9F11005A5E72 /* Assets.xcassets in Resources */,
 				7EA918D322FDB82C005A5E72 /* CompaniesViewController.xib in Resources */,
+				7EA918DE2301B9FE005A5E72 /* MembersViewController.xib in Resources */,
 				7EA9189822FC9F0F005A5E72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,11 +355,14 @@
 				7EA918D522FDE186005A5E72 /* CompaniesContracts.swift in Sources */,
 				7EA918B922FC9F7F005A5E72 /* Company.swift in Sources */,
 				7EA918D722FDE1C2005A5E72 /* CompaniesPresenter.swift in Sources */,
+				7EA918DD2301B9FE005A5E72 /* MembersViewController.swift in Sources */,
 				7EA918CE22FCD682005A5E72 /* DataProvider.swift in Sources */,
 				7EA918D222FDB82C005A5E72 /* CompaniesViewController.swift in Sources */,
 				7EA918BE22FCC676005A5E72 /* UseCaseProvider.swift in Sources */,
+				7EA918E22301BA66005A5E72 /* MembersPresenter.swift in Sources */,
 				7EA918BA22FC9F7F005A5E72 /* Member.swift in Sources */,
 				7EA918C022FCC6A2005A5E72 /* CompanyUseCase.swift in Sources */,
+				7EA918E02301BA34005A5E72 /* MembersContracts.swift in Sources */,
 				7EA918C522FCC7C9005A5E72 /* MemberUseCase.swift in Sources */,
 				7EA918CA22FCCF55005A5E72 /* CompanyService.swift in Sources */,
 			);
